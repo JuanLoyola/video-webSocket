@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #222;
+  font-family: "Courier New", Courier, monospace;
+}
+
+video {
+  width: 50em;
+  display: block;
+  margin: 0 auto;
+  border: 2px solid #4caf50;
+  background-color: #222;
+  box-shadow: inset 0 0 1em #4caf50, 0 0 1em #4caf50;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-right: 10px;
+  border-radius: 0.5em;
+  transition: all 0.2s ease-in-out;
+  font-size: 1em;
+}
+
+button:hover {
+  background-color: #3e8e41;
+  box-shadow: 0 0 1em #4caf50;
+}
+
+#controls {
+  text-align: center;
+  margin-top: 1em;
+}
+
+#controls:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 0.5em;
+  background-color: #4caf50;
+  margin-top: 1em;
+  box-shadow: inset 0 0 1em #4caf50;
+}
+
+#controls:before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 0.5em;
+  background-color: #4caf50;
+  margin-top: -0.5em;
+  box-shadow: inset 0 0 1em #4caf50;
+}
