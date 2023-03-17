@@ -19,6 +19,6 @@ La aplicación permite reproducir un video y controlarlo mediante botones de "Pl
 
 - HTML: lenguaje de marcado utilizado para crear la estructura de la página web.
 - CSS: lenguaje de estilo utilizado para darle formato y estilo visual a la página web.
-- JavaScript: Node.js: entorno de ejecución de JavaScript en el servidor utilizado para crear la lógica y funcionalidad de la aplicación.
+- Node.js: entorno de ejecución de JavaScript en el servidor utilizado para crear la lógica y funcionalidad de la aplicación.
 - Express: framework de Node.js utilizado para construir aplicaciones web y APIs.
 - WebSocket: protocolo de comunicación utilizado para permitir la comunicación bidireccional y en tiempo real entre los usuarios conectados.
